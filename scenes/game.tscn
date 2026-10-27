@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://ex5etrgw8pl4" path="res://scenes/killzone.tscn" id="6_p57ef"]
 [ext_resource type="PackedScene" uid="uid://bfdiwi6si1b3j" path="res://scenes/slime.tscn" id="7_u5sy4"]
 [ext_resource type="FontFile" uid="uid://cc3wlw81l1qd8" path="res://assets/fonts/PixelOperator8.ttf" id="9_vtaks"]
+[ext_resource type="PackedScene" uid="uid://xhi2dvj2uru4" path="res://scenes/touch_controls.tscn" id="10_vtaks"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lbhrr"]
 texture = ExtResource("3_lnu2h")
@@ -452,3 +453,5 @@ position = Vector2(136, -32)
 
 [node name="Slime2" parent="Slime" unique_id=1762547668 instance=ExtResource("7_u5sy4")]
 position = Vector2(951, 48)
+
+[node name="CanvasLayer" parent="." unique_id=99009010 instance=ExtResource("10_vtaks")]
